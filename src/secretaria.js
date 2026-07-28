@@ -16,7 +16,7 @@ var response = await ai.models.generateContent({
         tools: [
             {
                 functionDeclarations: [
-                    {name: "getTodayDate", description: "retorna a data de hoje no formato yyyy-mm-dd"},
+                    {name: "getTodayDate", description: "retorna a data de hoje no formato escrito sem letras"},
                     {   
                         name: "getCountryTemperature",
                         description: "Retorna a temperatura do país indicado",
