@@ -190,6 +190,6 @@ const reScheduleEvents = {
     }
 }
 
-const allFunctions = [getTodayDate, getEvents, scheduleEvents, reScheduleEvents]
+const allDefinitions = [getTodayDate, getEvents, scheduleEvents, reScheduleEvents]
 
-export{allFunctions}
+export{allDefinitions}
